@@ -17,6 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [[NSUserDefaults standardUserDefaults] setObject:@[@{@"date":@"2016-04-01"}, @{@"date":@"2016-05-01"}, @{@"date":@"2016-04-27"}, @{@"date":@"2016-05-13"}, @{@"date":@"2016-04-13"}] forKey:@"testData"];
     return YES;
 }
 
